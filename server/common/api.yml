@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: poke-api
+  description: Pokemon API
+  version: 1.0.0
+servers:
+  - url: /api/v1
+tags:
+  - name: Pokemons
+    description: Pokemons endpoints
+paths:

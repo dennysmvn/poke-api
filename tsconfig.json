@@ -1,0 +1,19 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es2019"
+    ],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
+    "strictNullChecks": true,
+    "resolveJsonModule": true
+  },
+  "include": ["typings.d.ts", "server/**/*.ts", "test/**/*.ts"],
+  "exclude": ["node_modules"]
+}
