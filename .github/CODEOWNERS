@@ -1,5 +1,5 @@
 # These owners will be the default owners for everything in the repo.
-*      @dafiti-group/login-session @dafiti-group/conversion
+*      @dennysmvn
 
 # Order is important. The last matching pattern has the most precedence.
 # So if a pull request only touches javascript files, only these owners
